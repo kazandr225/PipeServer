@@ -7,7 +7,7 @@
 
 int main()
 {
-	system("chcp 1251<nul");
+	system("chcp 1251>nul");
 	
 	HANDLE hNamedPipe;
 	LPSTR lpszPipeName = L"\\\\.\\pipe\\MyPipe";
